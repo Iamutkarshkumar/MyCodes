@@ -1,0 +1,11 @@
+L=[1,4,2,3,5,2,7,3,7]
+L.sort()
+print(L)
+L.reverse()
+print(L)
+L.append(8)
+print(L)
+a=int(input("Enter starting index:"))
+b=int(input("Enter ending index:"))
+step=int(input("Enter step value:"))
+print(L[a:b:step])
